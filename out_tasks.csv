@@ -1,0 +1,1076 @@
+task_id;task_name;Text base name;task_reward_res1;task_reward_res2;task_reward_xp;task_reward_rep;min_level;max_level;levels;cost_pass;run_task;p
+60;1;Meeting a Phantom;120;;90;;1000;;;;;1
+63;2;What time is it?;120;;90;;1000;;;;;1
+59;3;Round Earth;120;;90;;2;;;;;1
+58;4;Mysteries of Egypt;120;;100;;;;;;;1
+222;5;Einstein's Socks;120;;70;;;;;;;1
+1610;5.0;Energy Boost;100;;60;;4;;;;;1
+2103;5.1;The Sand of Time;120;;60;;;;;;;1
+223;6.1;Memory Keeper;120;;90;;;;;;;1
+224;6.2;The Time is Ripe;120;0;90;;;;;;;1
+529;7.1;Time Trackers;120;;90;;;;;;;1
+530;7.2;Historic Items;120;;90;;;;;;;1
+531;7.3;Ancient Scrolls;180;;120;;;;;;;0.4
+885;8.1;Intelligence vs Beauty;180;;120;;;;;;;1
+886;8.2;What is Axe for? ;120;;90;;;;;;;1
+887;8.3;To Sleep or not to Sleep?;100;;90;;;;;;;0.8
+888;8.4;How to Succeed? ;180;;120;;;;;;;0.5
+889;8.5;Believe in Miracles ;180;;120;;;;;;;0.5
+890;9.1;Develop your Strengths ;120;;90;;;;;;;0.9
+891;9.2;Future depends on you! ;180;;120;;;;;;;0.4
+892;9.3;Great Deeds;180;;120;;;;;;;0.8
+893;10.1;Who scattered people in time?;120;;90;;;;;;;1
+894;10.2;Improve yourself every day!;200;;160;;;;;;;0.5
+895;10.3;Cleopatra and a guitar;120;;120;;;;;;;0.75
+896;11.1;Scientist's Thoughts;120;;120;;;;;;;0.75
+897;11.2;Breakfast and lunch;200;;140;;;;;;;0.5
+898;11.3;A mango for Cleopatra;160;;120;;;;;;;0.4
+899;11.4;Authority is good;160;;120;;;;;;;0.75
+900;11.5;What is luck?;200;;140;;;;;;;0.4
+901;12.1;USB memory stick usage;200;;140;;;;;;;0.75
+902;12.2;Goddess of beauty;200;;140;;;;;;;0.4
+903;12.3;Everything happens for a reason;200;;140;;;;;;;1
+904;13.1;IT;250;;180;;;;;;;0.5
+1279;13.1.1;Professor's diary;120;;100;;;;;;;-
+1280;13.1.2;The Professor;;;;;;;;;;-
+905;13.2;No accidentals ;200;;140;;;;;;;1
+906;13.3;Keeping a diary;160;;120;;;;;;;0.9
+907;13.4;Whiskey 40 – 50 % ;200;;140;;;;;;;0.5
+1281;14.1;;;;;;;;;;;-
+1282;14.2;Toy horse;120;;120;;;;;;;0.9
+1283;14.3;Gentleman's principle;160;;120;;;;;;;0.3
+1284;15.1;Beauty secrets;160;;120;;;;;;;0.3
+1285;15.2;Amazing!;180;;140;;;;;;;0.8
+1286;15.3;Human weaknesses;180;;140;;;;;;;0.4
+1287;15.4;Fertile soil;200;;140;;;;;;;0.5
+1288;15.5;Mars rover prototype;200;;180;;;;;;;0.3
+1289;16.1;Sound sleep;180;;160;;;;;;;0.9
+1290;16.2;Interesting fact ;200;;140;;;;;;;0.75
+1291;16.3;Man of action;180;;160;;;;;;;0.5
+1292;16.4;Sweet lips;180;;160;;;;;;;0.25
+1293;17.1;Socks and flip-flops;180;;160;;;;;;;0.5
+1294;17.2;Fruit snack;180;;160;;;;;;;0.5
+1295;17.3;Focused on victory;200;;180;;;;;;;0.5
+1296;18.1;A-student;200;;180;;;;;;;1
+1297;18.2;Men and high heels;180;;160;;;;;;;0.5
+1298;18.3;;;;;;;;;;;-
+1299;19.1;Love stories;200;;180;;;;;;;0.2
+1300;19.2;True friend;220;;180;;;;;;;0.8
+1301;19.3;Wide horizons;200;;180;;;;;;;0.5
+1302;20.1;;;;;;;;;;;-
+1303;21.1;Ball of fear;200;;180;;;;;;;0.5
+1304;21.2;Napoleon's pipe dreams;220;;200;;;;;;;0.3
+1305;21.3;Trumpet for Einstein;220;;180;;;;;;;0.5
+1306;22.1;Tiny world;220;;180;;;;;;;0.6
+1307;22.2;Ancient USB drives;200;;180;;;;;;;0.5
+1308;22.3;Useful accessory;200;;180;;;;;;;0.5
+1309;22.4;New continents;200;;180;;;;;;;0.3
+1310;23.1;Puppies;180;;160;;;;;;;0.4
+1311;23.2;Cozy piece of furniture;220;;120;;;;;;;1
+1312;23.3;Parrot's bright feathering;220;;200;;;;;;;0.3
+1313;24.1;Philatelic desirables;220;;200;;;;;;;0.3
+1314;24.2;Words and their meaning;200;;180;;;;;;;0.5
+1315;24.3;African drum;220;;180;;;;;;;0.8
+1438;25.1;;;;;;;;;;;-
+1317;26.1;Another symbol;220;;200;;;;;;;0.5
+1318;26.2;Not the Lord of the Universe;220;;200;;;;;;;0.3
+1319;26.3;Citrus tea;180;;160;;;;;;;0.4
+1320;27.1;Key to Mary's heart;200;;180;;;;;;;0.5
+1321;27.2;Athens' Glory;220;;200;;;;;;;0.5
+1322;27.3;Flip-flops for Cleopatra!;200;;180;;;;;;;0.3
+1323;27.4;Sledge;220;;200;;;;;;;0.4
+1439;27.5;Spare socks;280;;200;;;;;;;0.5
+1325;28.1;Mary's hair;200;;180;;;;;;;0.6
+1326;28.2;Tiny universe;220;;200;;;;;;;0.3
+1327;28.3;Romantic Einstein;250;;200;;;;;;;0.9
+1328;29.1;Flask;250;;220;;;;;;;0.5
+1329;29.2;To remember everyone;280;;250;;;;;;;0.75
+1330;29.3;Sweet memories;220;;200;;;;;;;0.6
+1331;29.4;Enchanted glass;220;;200;;;;;;;0.5
+1332;30.1;Emerald fan;220;;200;;;;;;;0.3
+1333;30.2;No silk gloves!;220;;200;;;;;;;0.25
+1334;30.3;Topography;250;;220;;;;;;;0.3
+1335;30.4;A book to read;250;;220;;;;;;;0.6
+1336;31.1;Statuette of Themis;250;;200;;;;;;;0.5
+1337;31.2;Disappearance toggle;280;;220;;;;;;;0.5
+1338;31.3;Lincoln's world;280;;250;;;;;;;0.3
+1339;31.4;New experiments;280;;220;;;;;;;0.25
+1340;31.5;Music of Heart;250;;220;;;;;;;0.4
+1341;31.6;Wedding ring;260;;240;;;;;;;0.4
+1342;32.1;Types of Alphabet ;260;;240;;;;;;;0.4
+1343;32.2;Grain scales;260;;240;;;;;;;0.3
+1344;33.1;Napoleon's keys;240;;220;;;;;;;0.6
+1345;33.2;The very first;240;;220;;;;;;;0.5
+1346;34.3;Lyrical Kobza;280;;260;;;;;;;1
+1347;34.4;Dinner with Albert;240;;220;;;;;;;0.5
+1348;36.1;Just one bulb!;280;;260;;;;;;;0.5
+1349;36.2;Acetic acid;280;;260;;;;;;;0.5
+1350;36.3;On the wind;220;;200;;;;;;;0.4
+1351;36.4;Albert's infrequent clothes;220;;200;;;;;;;0.3
+1352;37.1;To find a corkscrew;300;;280;;;;;;;0.5
+1353;38.1;As Cleopatra's cook...;240;;220;;;;;;;0.4
+1354;38.2;Polyglot type;240;;220;;;;;;;0.5
+1355;38.3;Expensive ingredient;240;;220;;;;;;;0.3
+1356;39.1;Gift for Josephine;300;;280;;;;;;;0.75
+1357;39.2;Clown to be;300;;280;;;;;;;0.3
+1358;39.3;Wine amphora!;300;;280;;;;;;;0.5
+1359;39.4;Symbol of slavery;280;;260;;;;;;;0.4
+1360;39.5;Mechanical puzzle;320;;300;;;;;;;0.5
+1361;40.1;Cutlass exposed!;300;;280;;;;;;;0.3
+1362;40.2;Connection at a distance;300;;280;;;;;;;0.5
+1363;41.1;Fine shoes;320;;300;;;;;;;0.25
+1443;42.1;Beautiful curves;300;;280;;;;;;;0.4
+1364;42.2;U-shape;300;;280;;;;;;;0.5
+1365;42.3;Garden tools;320;;300;;;;;;;0.4
+1444;43.1;Sweetener;340;;320;;;;;;;0.75
+1445;43.2;Scientist of the future;320;;300;;;;;;;0.4
+1366;43.3;Money cakes;320;;300;;;;;;;0.25
+1367;43.4;Just in case;320;;300;;;;;;;0.4
+1368;43.5;To the victory;340;;320;;;;;;;0.2
+1369;44.1;Thinker's chair;320;;300;;;;;;;0.5
+1370;44.2;Mushrooms in cream sauce;340;;320;;;;;;;0.5
+1371;44.3;Foot care;340;;320;;;;;;;0.4
+1373;46.1;Came from childhood;360;;340;;;;;;;0.3
+1374;46.2;New style;360;;340;;;;;;;0.5
+1375;47.1;Law notebook;380;;360;;;;;;;0.6
+1376;47.2;Clerk's best friend!;380;;360;;;;;;;0.5
+1377;47.3;Clay;360;;340;;;;;;;0.5
+1378;47.4;Magnifying glass;380;;360;;;;;;;0.4
+1379;48.1;Writing class;380;;360;;;;;;;0.4
+1380;48.2;Thick hair;380;;360;;;;;;;0.75
+1381;48.3;Theatre tickets;340;;320;;;;;;;0.4
+1382;48.4;Door-plate;320;;300;;;;;;;0.4
+1383;49.1;Life-work;380;;360;;;;;;;0.3
+1384;49.2;Sweet home;400;;380;;;;;;;0.5
+1440;50.1;;;;;;;;;;;-
+1410;51.1;Alexander's dreams;380;;360;;;;;;;0.5
+1411;51.2;List of braves;380;;360;;;;;;;0.5
+1412;52.1;My Margo;360;;320;;;;;;;0.4
+1413;52.2;Another symbol;360;;320;;;;;;;0.5
+1414;52.3;Fancy socks;360;;340;;;;;;;0.6
+1415;53.1;In love with experiments;340;;320;;;;;;;0.4
+1416;53.2;Adorable cat;340;;320;;;;;;;0.6
+1417;54.1;Lincoln's smiley;340;;320;;;;;;;0.5
+1418;54.2;The Great Indiction;320;;300;;;;;;;0.3
+1419;54.3;View from the Moon;380;;360;;;;;;;0.5
+1420;55.1;Children's Bible;400;;380;;;;;;;0.4
+1421;55.2;Magic lamp!;400;;380;;;;;;;0.5
+1422;55.3;Say NO to the flu!;400;;380;;;;;;;0.5
+1423;55.4;Flower watering pot;420;;400;;;;;;;0.4
+1424;55.5;Alexander's whim;400;;380;;;;;;;0.5
+1425;56.1;What a wonder!;340;;320;;;;;;;0.25
+1426;56.2;Hotter than the Sun;320;;300;;;;;;;0.5
+1427;56.3;Napoleon's puzzle;340;;320;;;;;;;0.5
+1441;57.1;;;;;;;;;;;-
+1428;58.1;Woman's secret;400;;380;;;;;;;0.5
+1429;58.2;Not a battleship;420;;400;;;;;;;0.75
+1430;58.3;Elite present;400;;380;;;;;;;0.5
+1431;59.1;Cherchez la femme;400;;380;;;;;;;0.5
+1432;59.2;Love letter;380;;360;;;;;;;0.4
+1433;59.3;Old trends are back: bikinis, tunics, etc.;380;;360;;;;;;;0.5
+1434;59.4;Napoleon's order;380;;360;;;;;;;0.25
+1435;60.1;Science and pleasure;380;;360;;;;;;;0.25
+1436;60.2;Strawberry jam;400;;380;;;;;;;0.5
+1437;60.3;Garden shears;400;;380;;;;;;;0.3
+1442;61.1;;;;;;;;;;;-
+1460;62.1;Antibiotics;460;;340;;;;;;;0.2
+1461;62.2;A fan for Einstein;460;;340;;;;;;;0.2
+1462;62.3;Candies for the Professor;480;;380;;;;;;;0.1
+1463;62.4;Lincoln's gift;480;;380;;;;;;;0.25
+1464;63.1;Marengo;480;;380;;;;;;;0.25
+1465;63.2;A piece of miracle;480;;380;;;;;;;0.5
+1466;63.3;Soft towels;480;;380;;;;;;;0.1
+1467;63.4;Ability to hide;480;;380;;;;;;;0.25
+1468;64.1;;;;;;;;;;;-
+1469;65.1;An extra pair;480;;380;;;;;;;0.2
+1470;65.2;Tabby;480;;380;;;;;;;0.25
+1471;65.3;Professor's sneakers;480;;380;;;;;;;0.25
+1472;65.4;To rule the world;500;;400;;;;;;;0.2
+1473;66.1;Einstein's guess;500;;400;;;;;;;0.2
+1474;66.2;A common building tool;520;;420;;;;;;;0.15
+1475;66.3;Fragrant tea for Einstein;520;;420;;;;;;;0.5
+1476;66.4;Modern umbrella;520;;420;;;;;;;0.2
+1477;67.1;Festive mood ;520;;420;;;;;;;0.15
+1478;67.2;Yin-yang interpretation;520;;420;;;;;;;0.1
+1479;67.3;My super weapon!;520;;420;;;;;;;0.25
+1480;67.4;Hope;540;;440;;;;;;;0.2
+1481;68.1;Professor's teddy bear;540;;440;;;;;;;0.2
+1482;68.2;Weapon against street dust!;540;;440;;;;;;;0.15
+1483;68.3;Professor's memorable handkerchief;540;;440;;;;;;;0.15
+1484;68.4;Cheerful Napoleon;540;;440;;;;;;;0.2
+1485;69.1;;;;;;;;;;;-
+1486;70.1;Snowman for the queen;540;;440;;;;;;;0.25
+1487;70.2;Lincoln's liqueur;540;;440;;;;;;;0.25
+1488;71.1;The very first;540;;440;;;;;;;0.2
+1489;71.2;Intuition;540;;440;;;;;;;0.2
+1490;71.3;Sweets for the Emperor;540;;440;;;;;;;0.4
+1491;71.4;Find a samovar;540;;440;;;;;;;0.4
+1492;72.1;Plenty is no plague;540;;440;;;;;;;0.25
+1493;72.2;Gold oar;540;;440;;;;;;;0.2
+1494;72.3;Fixing mistakes;540;;440;;;;;;;0.2
+1495;72.4;Paper knife;540;;440;;;;;;;0.2
+1496;72.5;Sunblock;560;;460;;;;;;;0.5
+1497;73.1;;;;;;;;;;;-
+1498;74.1;Flowers for Cleopatra;540;;440;;;;;;;0.2
+1499;74.2;Wiping the floor;540;;440;;;;;;;0.25
+1500;74.3;Catch the rabbit!;540;;440;;;;;;;0.2
+1501;74.4;Handwear;540;;440;;;;;;;0.2
+1502;74.5;Grapes;540;;440;;;;;;;0.25
+1503;75.1;;;;;;;;;;;-
+1504;76.1;Beach soccer;560;;460;;;;;;;0.1
+1505;76.2;Civil code;540;;440;;;;;;;0.25
+1506;76.3;Napoleon's friend;560;;460;;;;;;;0.2
+1507;77.1;Beauty is the greatest power;560;;460;;;;;;;0.2
+1508;77.2;Cappuccino!;560;;460;;;;;;;0.2
+1509;77.3;Card trick;560;;440;;;;;;;0.1
+1510;77.4;Professor's mug;560;;460;;;;;;;0.1
+1511;78.1;;0;;0;;;;;;;0.2
+1512;79.1;Equal to the Emperor of the French;560;;460;;;;;;;0.25
+1513;79.2;The simplest clock;560;;460;;;;;;;0.25
+1514;79.3;Granny's apron;560;;460;;;;;;;0.2
+1515;80.1;Under pressure;560;;460;;;;;;;0.2
+1516;80.2;Collector;560;;460;;;;;;;0.2
+1517;81.1;;;;;;;;;;;-
+332;story_1;;;;;;;;;;;-
+333;story_2;;;;;;;;;;;-
+334;story_3;;;;;;;;;;;-
+335;story_4;;;;;;;;;;;-
+336;story_5;;;;;;;;;;;-
+337;story_6;;;;;;;;;;;-
+338;story_7;;;;;;;;;;;-
+339;story_8;;;;;;;;;;;-
+340;story_9;;;;;;;;;;;-
+341;story_10;;;;;;;;;;;-
+342;story_11;;;;;;;;;;;-
+343;story_12;;;;;;1;;;;;-
+344;story_13;;;;;;1;;;;;-
+345;story_14;;;;;;1;;;;;-
+346;story_15;;;;;;1;;;;;-
+347;story_16;;;;;;1;;;;;-
+348;story_17;;;;;;1;;;;;-
+349;story_18;;;;;;1;;;;;-
+350;story_19;;;;;;1;;;;;-
+351;story_20;;;;;;1;;;;;-
+352;story_21;;;;;;1;;;;;-
+353;story_22;;;;;;1;;;;;-
+354;story_23;;;;;;1;;;;;-
+355;story_24;;;;;;1;;;;;-
+356;story_25;;;;;;1;;;;;-
+357;story_26;;;;;;1;;;;;-
+358;story_27;;;;;;1;;;;;-
+359;story_28;;;;;;1;;;;;-
+360;story_29;;;;;;1;;;;;-
+361;story_30;;;;;;1;;;;;-
+362;story_31;;;;;;1;;;;;-
+363;l1;;;;;;;;;;;-
+364;l2;;;;;;;;;;;-
+365;l3;;;;;;;;;;;-
+366;l4;;;;;;;;;;;-
+367;l5;;;;;;;;;;;-
+368;l6;;;;;;;;;;;-
+369;l7;;;;;;;;;;;-
+370;l8;;;;;;;;;;;-
+371;l9;;;;;;;;;;;-
+372;l10;;;;;;;;;;;-
+373;l11;;;;;;;;;;;-
+374;l12;;;;;;;;;;;-
+375;l13;;;;;;;;;;;-
+376;l14;;;;;;;;;;;-
+377;l15;;;;;;;;;;;-
+378;l16;;;;;;;;;;;-
+379;l17;;;;;;;;;;;-
+380;l18;;;;;;;;;;;-
+381;l19;;;;;;;;;;;-
+382;l20;;;;;;;;;;;-
+383;l21;;;;;;;;;;;-
+384;k1;;;;;;;;;;;-
+385;k2;;;;;;;;;;;-
+386;k3;;;;;;;;;;;-
+387;k4;;;;;;;;;;;-
+388;k5;;;;;;;;;;;-
+389;k6;;;;;;;;;;;-
+390;k7;;;;;;;;;;;-
+391;k8;;;;;;;;;;;-
+392;k9;;;;;;;;;;;-
+393;k10;;;;;;;;;;;-
+394;k11;;;;;;;;;;;-
+395;k12;;;;;;;;;;;-
+396;k13;;;;;;;;;;;-
+397;k14;;;;;;;;;;;-
+398;k15;;;;;;;;;;;-
+399;k16;;;;;;;;;;;-
+400;k17;;;;;;;;;;;-
+401;k18;;;;;;;;;;;-
+402;k19;;;;;;;;;;;-
+403;k20;;;;;;;;;;;-
+404;k21;;;;;;;;;;;-
+405;k22;;;;;;;;;;;-
+406;k23;;;;;;;;;;;-
+407;k24;;;;;;;;;;;-
+408;k25;;;;;;;;;;;-
+409;a1;;;;;;;;;;;-
+410;a2;;;;;;;;;;;-
+411;a3;;;;;;;;;;;-
+412;a4;;;;;;;;;;;-
+413;a5;;;;;;;;;;;-
+414;a6;;;;;;;;;;;-
+415;a7;;;;;;;;;;;-
+416;a8;;;;;;;;;;;-
+417;a9;;;;;;;;;;;-
+418;a10;;;;;;;;;;;-
+419;a11;;;;;;;;;;;-
+420;a12;;;;;;;;;;;-
+421;a13;;;;;;;;;;;-
+422;a14;;;;;;;;;;;-
+423;a15;;;;;;;;;;;-
+424;a16;;;;;;;;;;;-
+425;a17;;;;;;;;;;;-
+426;a18;;;;;;;;;;;-
+427;a19;;;;;;;;;;;-
+428;a20;;;;;;;;;;;-
+429;a21;;;;;;;;;;;-
+430;a22;;;;;;;;;;;-
+431;a23;;;;;;;;;;;-
+432;a24;;;;;;;;;;;-
+433;a25;;;;;;;;;;;-
+434;n1;;;;;;;;;;;-
+435;n2;;;;;;;;;;;-
+436;n3;;;;;;;;;;;-
+437;n4;;;;;;;;;;;-
+438;n5;;;;;;;;;;;-
+439;n6;;;;;;;;;;;-
+440;n7;;;;;;;;;;;-
+441;n8;;;;;;;;;;;-
+442;n9;;;;;;;;;;;-
+443;n10;;;;;;;;;;;-
+444;n11;;;;;;;;;;;-
+445;n12;;;;;;;;;;;-
+446;n13;;;;;;;;;;;-
+447;n14;;;;;;;;;;;-
+448;n15;;;;;;;;;;;-
+449;n16;;;;;;;;;;;-
+450;n17;;;;;;;;;;;-
+451;n18;;;;;;;;;;;-
+452;n19;;;;;;;;;;;-
+453;n20;;;;;;;;;;;-
+454;n21;;;;;;;;;;;-
+455;n22;;;;;;;;;;;-
+456;n23;;;;;;;;;;;-
+457;n24;;;;;;;;;;;-
+458;n25;;;;;;;;;;;-
+459;n26;;;;;;;;;;;-
+460;n27;;;;;;;;;;;-
+461;n28;;;;;;;;;;;-
+462;n29;;;;;;;;;;;-
+463;e1;;;;;;;;;;;-
+464;e2;;;;;;;;;;;-
+465;e3;;;;;;;;;;;-
+466;e4;;;;;;;;;;;-
+467;e5;;;;;;;;;;;-
+468;e6;;;;;;;;;;;-
+469;e7;;;;;;;;;;;-
+470;e8;;;;;;;;;;;-
+471;e9;;;;;;;;;;;-
+472;e10;;;;;;;;;;;-
+473;e11;;;;;;;;;;;-
+474;e12;;;;;;;;;;;-
+475;e13;;;;;;;;;;;-
+476;e14;;;;;;;;;;;-
+477;e15;;;;;;;;;;;-
+478;e16;;;;;;;;;;;-
+479;e17;;;;;;;;;;;-
+480;e18;;;;;;;;;;;-
+481;e19;;;;;;;;;;;-
+482;e20;;;;;;;;;;;-
+483;e21;;;;;;;;;;;-
+484;e22;;;;;;;;;;;-
+485;e23;;;;;;;;;;;-
+486;e24;;;;;;;;;;;-
+487;e25;;;;;;;;;;;-
+488;e26;;;;;;;;;;;-
+489;e27;;;;;;30;;;;;-
+490;e28;;;;;;;;;;;-
+491;e29;;;;;;;;;;;-
+492;e30;;;;;;;;;;;-
+493;e31;;;;;;;;;;;-
+494;e32;;;;;;;;;;;-
+495;e33;;;;;;;;;;;-
+1737;kol1;Scientist's Aids;500;;200;;;;;;;-
+1738;kol2;Guardians of Time;500;;200;;;;;;;-
+1739;kol3;Around the World;500;;200;;;;;;;-
+1740;kol4;--no text item with this id--;500;;200;;1000;;;;;-
+1741;kol5;Fine Decor;500;;200;;;;;;;-
+1742;kol6;Five-piece band;500;;200;;;;;;;-
+1743;kol7;Vitamin's Day;500;;200;;;;;;;-
+1744;kol8;Days of the Week Socks;500;;200;;;;;;;-
+1745;kol9;Wikipedia Predecessors;500;;200;;;;;;;-
+1746;kol10;Mood Fan;500;;200;;;;;;;-
+1747;kol11;Optics Realm;500;;200;;;;;;;-
+1748;kol12;Historic Scrolls;500;;200;;;;;;;-
+1749;kol13;Keys to Happiness;500;;200;;;;;;;-
+1750;kol14;Rainbow Gems;500;;200;;;;;;;-
+1751;kol15;Great History Makers;500;;200;;;;;;;-
+1752;kol16;Mystery Collection;500;;200;;;;;;;-
+1753;kol17;Weapons Collection;500;;200;;;;;;;-
+1754;kol18;Philosophy Collection;500;;200;;;;;;;-
+1755;kol19;The Diet of Genius collection;500;;200;;;;;;;-
+1756;kol20;True Gentleman collection;500;;200;;;;;;;-
+1757;kol21;School Time;500;;200;;;;;;;-
+1758;kol22;Great Conqueror;500;;200;;;;;;;-
+1759;kol23;Art of Cooking;500;;200;;;;;;;-
+1760;kol24;Craving for Beauty;500;;200;;;;;;;-
+1761;kol25;Merry Gardener;500;;200;;;;;;;-
+1762;kol26;Office;500;;200;;;;;;;-
+1763;kol27;Manuscripts Don't Burn;500;;200;;;;;;;-
+1764;kol28;Children's Joy;500;;200;;;;;;;-
+1765;kol29;Сharming Girl;500;;200;;;;;;;-
+1766;kol30;Alchemist's Secrets;500;;200;;;;;;;-
+1767;kol31;Medical Practice;500;;200;;;;;;;-
+1768;kol32;Bathing Day;500;;200;;;;;;;-
+1769;kol33;Postal Service;500;;200;;;;;;;-
+1770;kol34;Warrior's Way;500;;200;;;;;;;-
+1771;kol35;Souvenirs;500;;200;;;;;;;-
+1772;kol36;Kids and Outer Space;500;;200;;;;;;;-
+1773;kol37;Sweet Tooth;500;;200;;;;;;;-
+1774;kol38;Sea-Wolf;500;;200;;;;;;;-
+1775;kol39;Jack of All Trades;500;;200;;;;;;;-
+1776;kol40;Secrets of Winemaking;500;;200;;;;;;;-
+1777;kol41;Russian Teatime;500;;200;;;;;;;-
+1778;kol42;Winter Holidays;500;;200;;;;;;;-
+1779;kol43;Cleaning Kit;500;;200;;;;;;;-
+1780;kol44;Pets;500;;200;;;;;;;-
+1782;kol45;Beach Season;500;;200;;;;;;;-
+1783;kol46;Time Machine;500;;200;;;;;;;-
+1784;kol47;Professor's Lost Things;500;;200;;;;;;;-
+1785;kol48;Professor's Favorites;500;;200;;;;;;;-
+1786;kol49;Artifacts of Future;500;;200;;;;;;;-
+1787;kol50;Eternal Opposites;500;;200;;;;;;;-
+2053;kol51;Quarks Collection;500;;200;;;;;;;-
+2148;kol52;5 elements;500;;200;;;;;;;-
+2149;kol53;Minerals;500;;200;;;;;;;-
+2150;kol54;Is there life on Mars?;500;;200;;;;;;;-
+2151;kol55;Nature symbols;500;;200;;;;;;;-
+2152;kol56;Seedlings;500;;200;;;;;;;-
+3868;kold1;Glass animals;400;;200;;;;;;;-
+3869;kold2;Signs of the Future;400;;200;;;;;;;-
+3870;kold3;Secrets of Leonardo;500;;200;;;;;;;-
+3871;kolu1;Flying saucer;500;;300;;;;;;;-
+3872;kolu2;Two wheels;600;;200;;;;;;;-
+3873;kolu3;Ancient lizard;600;;300;;;;;;;-
+3874;kolu4;Another face;500;;300;;;;;;;-
+3875;kolu5;Health Tools;700;;300;;;;;;;-
+3980;kolb1;Abreast with the times;700;;300;;;;;;;-
+3981;kolb2;Fishing tackle;700;;300;;;;;;;-
+3982;kolb3;Sport time;700;;300;;;;;;;-
+3983;kolb4;Lab inventory;700;;300;;;;;;;-
+3984;kolb5;Steam bath;700;;300;;;;;;;-
+4016;kolc1;Fire safety;500;;300;;;;;;;-
+4017;kolc2;Great honours;700;;400;;;;;;;-
+4018;kolc3;Sea dwellers;600;;300;;;;;;;-
+4019;kolc4;Seafaring life;500;;300;;;;;;;-
+4020;kolc5;Pirate treasures;700;;400;;;;;;;-
+4130;kolp1;Old puzzle;500;;500;;;;;;;-
+4131;kolp2;Modern soldier;500;;500;;;;;;;-
+4132;kolp3;Girl purse;550;;550;;;;;;;-
+4133;kolp4;Toy basket;600;;500;;;;;;;-
+4134;kolp5;Comfy car seat;600;;600;;;;;;;-
+4604;kol101;The Story of Two Lovers;600;;600;;;;;;;-
+4605;kol102;Energy Sources;600;;600;;;;;;;-
+4606;kol103;Scientist's Leisure Time;600;;600;;;;;;;-
+4607;kol104;Painter's Tools;600;;600;;;;;;;-
+4608;kol105;Renaissance;600;;600;;;;;;;-
+4609;kol106;Musical instruments;600;;600;;;;;;;-
+4610;kol107;Animals of Peru;600;;600;;;;;;;-
+4611;kol108;Lake Titicaca;600;;600;;;;;;;-
+4612;kol109;Flora of South America;600;;600;;;;;;;-
+4613;kol110;Inca Gods;600;;600;;;;;;;-
+4614;kol111;Incan foods and drinks;600;;600;;;;;;;-
+4615;kol112;Adventurer's collection;600;;600;;;;;;;-
+4616;kol113;Incan Science;600;;600;;;;;;;-
+4617;kol114;Pride of Peru;600;;600;;;;;;;-
+4618;kol115;Inca Gold;600;;600;;;;;;;-
+4900;kol116;Australian animals;600;;600;;;;;;;-
+4902;kol118;Australian Souvenirs;600;;600;;;;;;;-
+4899;kol119;Deadly Creatures from Australia;600;;600;;;;;;;-
+4901;kol120;Flora of Australia;600;;600;;;;;;;-
+4905;kol121;Hold on Tide;600;;600;;;;;;;-
+4903;kol123;Spices of Zanzibar;600;;600;;;;;;;-
+4904;kol124;Treats from Zanzibar;600;;600;;;;;;;-
+4906;kol125;Wildlife of Tanzania;600;;600;;;;;;;-
+5009;kol126;Argentine Desserts;600;;600;;;;;;;-
+5010;kol127;Tango Passion;600;;600;;;;;;;-
+5011;kol128;Wildlife of Argentina;600;;600;;;;;;;-
+5012;kol129;Argentine Souvenirs;600;;600;;;;;;;-
+1850;a.01;Tomb Raider;100;;120;;;;;;;-
+1851;a.02;Triple impact!;100;;120;;8;;;;;-
+1852;a.03;Magic Potion;100;;90;;6;;;;;-
+;a.04;;150;;120;;1000;;;;;-
+;a.05;;150;;150;;1000;;;;;-
+;a.06;;150;;150;;1000;;;;;-
+;a.07;;150;;150;;1000;;;;;-
+;a.08;;;;;;1000;;;;;-
+;a.09;;;;;;1000;;;;;-
+;a.10;;;;;;1000;;;;;-
+1853;a.11;Diving night;150;;120;;8;;;;;-
+1854;a.12;Magic ink;150;;120;;;;;;;-
+1855;a.13;Brain fog;100;;90;;;;;;;-
+1856;a.14;Great underwater battles;100;;200;;;;;;;-
+1857;a.15;Battle under water;100;;200;;;;;;;-
+1858;a.16;Bleared Dungeon's treasures;150;;120;;10;;;;;-
+1859;a.17;Wizard's script;150;;200;;;;;;;-
+1860;a.18;Oriental mysteries;100;;200;;;;;;;-
+1861;a.19;Night watch;100;;220;;;;;;;-
+1862;a.20;Dungeon war;100;;240;;;;;;;-
+1863;a.21;Attic's mystery;150;;200;;12;;;;;-
+1864;a.22;Nightmare night;300;;220;;;;;;;-
+1865;a.23;Dusty attic;400;;300;;;;;;;-
+1866;a.24;Spring cleaning;300;;360;;;;;;;-
+1867;a.25;Hidden message;300;;360;;;;;;;-
+1868;a.26;Papyrus' secret;150;;200;;22;;;;;-
+1869;a.27;Night at the temple;300;;220;;;;;;;-
+1870;a.28;Fighting mist;400;;300;;;;;;;-
+1871;a.29;Thai Temple's riddles;300;;360;;;;;;;-
+1872;a.30;Thai Temple's legends;300;;360;;;;;;;-
+1873;a.31;Guitar night;200;;250;;14;;;;;-
+1874;a.32;Missing stave;300;;300;;;;;;;-
+1875;a.33;Broken tuning fork;400;;350;;;;;;;-
+1876;a.34;Ear for music;300;;380;;;;;;;-
+1877;a.35;Outstanding conductor;300;;400;;;;;;;-
+1878;a.36;Japanese beauty;200;;250;;14;;;;;-
+1879;a.37;Scattered hieroglyphs;300;;300;;;;;;;-
+1880;a.38;Eclipse in Japanese yard;400;;350;;;;;;;-
+1881;a.39;Cherry blossom time;300;;380;;;;;;;-
+1882;a.40;One more step;300;;400;;;;;;;-
+1883;a.41;Court's notes;200;;250;;16;;;;;-
+1884;a.42;Night guard;300;;300;;;;;;;-
+1885;a.43;Endless fog;400;;350;;;;;;;-
+1886;a.44;Siege of a palace;300;;380;;;;;;;-
+1887;a.45;Palace affairs;300;;400;;;;;;;-
+1888;a.46;Fading colony;300;;450;;18;;;;;-
+1889;a.47;Night jungle;400;;400;;;;;;;-
+1890;a.48;High humidity;400;;450;;;;;;;-
+1891;a.49;Magic lens;300;;480;;;;;;;-
+1892;a.50;Rainy season;300;;400;;;;;;;-
+1893;a.51;Tough experiment;300;;450;;21;;;;;-
+1894;a.52;Night experiment;400;;400;;;;;;;-
+1895;a.53;Risky test;400;;450;;;;;;;-
+1896;a.54;Epoch-making discovery;300;;480;;;;;;;-
+1897;a.55;On the threshold of a discovery;300;;400;;;;;;;-
+1898;a.56;Missing recipe;300;;450;;22;;;;;-
+1899;a.57;Twilight in a wine cellar;400;;400;;;;;;;-
+1900;a.58;enveloped in fog;400;;450;;;;;;;-
+1901;a.59;Elegant Sommelier;300;;480;;;;;;;-
+1902;a.60;Wine-maker;300;;400;;;;;;;-
+1903;a.61;Forest sorcery;500;;500;;23;;;;;-
+1904;a.62;Midnight forest;400;;450;;;;;;;-
+1905;a.63;Dark forest;400;;450;;;;;;;-
+1906;a.64;Forest cleaning;300;;600;;;;;;;-
+1907;a.65;Rescued forest;300;;550;;;;;;;-
+1908;a.66;Catch good luck;500;;500;;25;;;;;-
+1909;a.67;Lucky night;400;;450;;;;;;;-
+1910;a.68;Gambling passion;400;;450;;;;;;;-
+1911;a.69;One-armed bandit lose!;300;;600;;;;;;;-
+1912;a.70;Broken commercialism;300;;550;;;;;;;-
+1913;am.1;Stone magic;300;;250;;;;;;;-
+1914;am.2;Magic pendant;300;;300;;;;;;;-
+1915;am.3;Cardioaccelerator;300;;450;;;;;;;-
+1916;am.4;Natural beauty;300;;450;;;;;;;-
+1918;am.5;Love sign;400;;500;;;;;;;-
+1919;am.6;Advanced help;400;;500;;;;;;;-
+1920;im.1;Great Tea Party;200;0;100;;;;;;;-
+1921;im.2;Strong coffee;300;;250;;;;;;;-
+1922;im.3;Sweet present;300;;450;;;;;;;-
+1923;im.4;Aristocrat's breakfast;300;;300;;;;;;;-
+1924;im.5;Fine tea fragrance;400;;300;;;;;;;-
+1925;im.6;Watch your weight;400;;400;;;;;;;-
+1827;6.1.1;Another book;100;;120;;;;;;;1
+1819;7.3.1;Einstein's reasoning;100;;120;;;;;;;1
+1820;8.1.1;Terra Incognita;100;;120;;;;;;;1
+1821;11.3.1;Egyptian scroll;100;;120;;8;;;;;1
+1822;13.1.5;Key to wisdom;100;;120;;;;;;;1
+1823;17.1.1;Lost key;100;;120;;;;;;;1
+1824;18.2.1;Symbolic jewelry;100;;120;;;;;;;1
+1828;36.3.1;Everything considered;100;;120;;;;;;;1
+1812;82;Quark confinement ;100;;120;;;;;;;1
+1813;83.1;Homestretch;100;;120;;;;;;;1
+1814;83.2;Beauty saves the world!;100;;120;;;;;;;1
+1815;83.3;Between sky and earth;100;;120;;;;;;;1
+1816;83.4;Predictions vs intuition;100;;120;;;;;;;1
+1817;83.5;Einstein's weak spot;100;;120;;;;;;;1
+2017;7.1.1;I ate little but slept well;100;;120;;9;;;;;0.8
+2018;7.2.2;A small passion;100;;120;;8;;;;;0.8
+2019;7.2.3;Mop or vacuum cleaner?!;100;;120;;;;;;;0.8
+2041;kat1;A Fierce Tornado;120;;90;;3;;;;;-
+2042;kat2;Firestorm;120;;90;;3;;;;;-
+2043;kat3;Hurricane;120;;90;;7;;;;;-
+2057;71.1.1;Ice-cream love;560;;460;;;;;;;0.3
+2058;71.2.2;Odd glasses;560;;460;;;;;;;0.3
+2059;71.4.4;Power-saving lamp;560;;460;;;;;;;0.3
+2087;facebook;Share;;5;200;;6;;;;;-
+2090;g+;Share;200;;200;;5;;;;;-
+2098;rate;Five stars;0;;400;;6;;;;;-
+2445;cleo_cas;Cleopatra's casino;100;;100;;3;;;;;-
+2925;einst_cas;Einstein's casino;200;;200;;7;;;;;-
+2579;hint.1;Phoenix flame;200;;90;;7;;;;;-
+2580;hint.2;Magic lens;200;;90;;;;;;;-
+2581;hint.3;Respite;200;;90;;;;;;;-
+2582;hint.4;Crystal magic;200;;90;;;;;;;-
+2583;hint.5;Bright flashlight;200;;90;;;;;;;-
+2584;hint.6;Diamond spark;200;;90;;;;;;;-
+2585;hint.7;Respite;200;;90;;;;;;;-
+2680;hint.8;Greek God;200;;100;;;;;;;-
+2679;hint.9;Golden target;200;;100;;;;;;;-
+2681;hint.10;Make it simple!;200;;100;;;;;;;-
+2682;hint.11;Solving problems;200;;100;;;;;;;-
+2683;hint.12;Reach the goal!;200;;100;;;;;;;-
+2563;new_01;Science world;150;;80;;6;;;;;1
+2564;new_02;Science world;200;;90;;7;;;;;0.75
+2565;new_03;Science world;200;;90;;;;;;;0.6
+2566;new_04;Science world;200;;90;;;;;;;0.6
+2567;new_05;Science world;200;;100;;;;;;;0.5
+2568;new_06;Science world;200;;120;;;;;;;0.5
+2569;new_07;Science world;200;;120;;;;;;;0.5
+2570;new_08;Science world;200;;120;;;;;;;0.5
+2571;new_09;Science world;200;;120;;;;;;;0.5
+2572;new_10;Science world;200;;120;;;;;;;0.6
+2573;new_11;Science world;200;;110;;;;;;;0.5
+2574;new_12;Science world;200;;120;;;;;;;0.6
+2575;new_13;Science world;200;;160;;;;;;;0.4
+2610;task_airplane;Airplane;200;;200;;6;;;;;-
+2780;invite;Play with friends!;200;0;200;;;;;;;-
+2908;tl_01;--no text item with this id--;;;;;1000;;;;;-
+2909;tl_02;Ocean;200;;200;;7;7;;;;-
+2910;tl_03;Beach Bar;200;;200;;8;8;;;;-
+2911;tl_04;Dungeon;200;;200;;9;9;;;;-
+2912;tl_05;Attic;200;;200;;11;11;;;;-
+2913;tl_06;Thai Temple;200;;200;;12;12;;;;-
+2914;tl_07;Music Room;200;;200;;13;13;;;;-
+2915;tl_08;Japanese Yard;200;;200;;14;14;;;;-
+2916;tl_09;Palace;200;;200;;15;15;;;;-
+2917;tl_10;Jungle;200;;200;;17;17;;;;-
+2918;tl_11;Winery;200;;200;;21;21;;;;-
+2919;tl_12;Laboratory;200;;200;;20;20;;;;-
+2920;tl_13;Forest Hut;200;;200;;22;22;;;;-
+2921;tl_14;Cemetery;200;;200;;25;25;;;;-
+2922;tl_15;Yurt;200;;200;;30;30;;;;-
+2923;tl_16;Desert;200;;200;;40;40;;;;-
+4021;tl_24;Old ship;200;;200;;82;82;;;;-
+3979;tl_26;Bathing day;200;;220;;37;37;;;;-
+2924;tl_17;Hookah Bar;200;;200;;55;55;;;;-
+4659;tl_27;Titicaca;200;;200;;27;27;;;;-
+4660;tl_28;City of the Incas;200;;200;;42;42;;;;-
+4897;tl_29;Sydney Tower;230;;260;;47;47;;;;-
+4898;tl_30;Surf spot;340;;360;;70;70;;;;-
+5008;tl_31;Tango School;300;;320;;65;65;;;;-
+2958;more_games;Our games;;;100;;6;8;;;;-
+3091;numt_1;Twisted Worlds;100;;60;;10;;;;;-
+3092;numt_2;Twisted Worlds;100;;60;;;;;;;-
+3093;numt_3;Twisted Worlds;100;;60;;;;;;;-
+3094;numt_4;Twisted Worlds;;5;0;;;;;;;-
+3117;poll_task;--no text item with this id--;;;;;5;;;;;-
+3138;einst_gen;--no text item with this id--;;;;;;;;;;-
+3351;like;Shower of Gold;1000;;0;;6;;;;;-
+3352;group_ok;Shoulder to Shoulder;1000;;0;;7;;;;;-
+4042;group_fb;Shoulder to Shoulder;0;10;0;;7;;;;;-
+3386;af_01;Time required;250;;140;;30;;;;;0.5
+3387;af_02;Irreversible process;260;;150;;;;;;;0.3
+3388;af_03;Knowledge of the truth;270;;160;;;;;;;0.4
+3389;af_04;Wisdom quotes;280;;170;;;;;;;0.2
+3390;af_05;Warfare;290;;180;;;;;;;0.7
+3391;af_06;Bridge;300;;190;;;;;;;0.25
+3392;af_07;Environment;310;;200;;;;;;;0.2
+3393;af_08;Scroll of fate;320;;210;;;;;;;0.8
+3394;af_09;Tuned to happiness;330;;220;;;;;;;0.3
+3395;af_10;Gravity technique;335;;230;;;;;;;0.4
+3396;af_11;Throne-worthy;340;;240;;;;;;;0.2
+3397;af_12;Simplicity in action;345;;250;;;;;;;0.5
+3398;af_13;Business before pleasure;350;;260;;;;;;;0.5
+3399;af_14;Music soul;355;;270;;;;;;;0.2
+3400;af_15;In the saddle;360;;280;;;;;;;0.2
+3401;af_16;Climbing up;365;;290;;;;;;;0.5
+3402;af_17;Pleasant trifles;370;;300;;;;;;;0.3
+3403;af_18;Happy hours;375;;305;;;;;;;0.25
+3404;af_19;Checkmate;380;;310;;;;;;;0.3
+3405;af_20;Tasty and healthy;385;;315;;;;;;;0.5
+3406;af_21;House of cards;390;;320;;;;;;;0.3
+3407;af_22;Mutual attraction;395;;325;;;;;;;0.1
+3408;af_23;Mistake or not?;400;;330;;;;;;;0.2
+3409;af_24;Wisdom quotes;405;;335;;;;;;;0.4
+3410;af_25;Start small;410;;340;;;;;;;0.3
+3411;af_26;Screwed up;415;;345;;;;;;;0.25
+3412;af_27;Opposites attract;420;;350;;;;;;;0.25
+3413;af_28;Well-deserved recognition;425;;355;;;;;;;0.25
+3414;af_29;Lady Justice;430;;360;;;;;;;0.35
+3415;af_30;Symbol of wisdom and power;435;;365;;;;;;;0.5
+3416;af_31;Someone's hat;440;;370;;;;;;;0.1
+3417;af_32;Royal crown;440;;370;;;;;;;0.2
+3418;af_33;Teatime;445;;375;;;;;;;0.2
+3419;af_34;Refinement;450;;380;;;;;;;0.25
+3420;af_35;Brilliant mind;455;;385;;;;;;;0.4
+3421;af_36;Keys to the heart;465;;395;;;;;;;0.3
+3422;af_37;Treating emotional wounds;470;;400;;;;;;;0.3
+3423;af_38;Good manners;475;;405;;;;;;;0.25
+3424;af_39;Prometheus bound;480;;410;;;;;;;0.4
+3425;af_40;Book of Dreams;485;;415;;;;;;;0.2
+3426;af_41;Wisdom quotes;490;;420;;;;;;;0.25
+3427;af_42;Open the door!;495;;425;;;;;;;0.5
+3428;af_43;To beat or not to beat?;500;;430;;;;;;;0.15
+3429;af_44;Thoughts of the wise;505;;435;;;;;;;0.15
+3430;af_45;The Long Road;510;;440;;;;;;;0.25
+3431;af_46;Tools for thought;515;;445;;;;;;;0.5
+3432;af_47;Wisdom quotes;520;;450;;;;;;;0.1
+3433;af_48;Wisdom quotes;525;;455;;;;;;;0.15
+3434;af_49;Wisdom quotes;530;;460;;;;;;;0.1
+3439;ok;Share with your friends;;5;200;;6;;;;;-
+3440;mobile;Widen Your Horizons;;10;;;8;;;;;-
+3528;leo_01;Unexpected assistance;200;;180;;19;;;;;0.6
+3529;leo_02;Masterly work;200;;180;;19;;;;;0.7
+3530;leo_03;Master and the artisan;200;;180;;19;;;;;0.55
+3531;leo_04;Gunsmith;200;;180;;19;;;;;0.45
+3532;leo_05;Organizer;200;;180;;19;;;;;0.5
+3533;leo_06;Master's name;200;;180;;19;;;;;0.3
+3534;leo_07;Mystery of Leonardo;400;;360;;19;;;;3570;0.5
+3535;leo_07_1;Mystery of Leonardo;400;;360;;;0;;;3572;0.4
+3536;leo_07_2;Mystery of Leonardo;400;;360;;;0;;;3574;0.4
+3537;leo_08;Rescuing Leonardo;200;;180;;19;;;;;0.6
+3538;leo_09;Ancient prophecy;200;;180;;19;;;;;0.8
+3539;leo_10;Star map;200;;180;;19;;;;;0.7
+3540;leo_11;Passage to workshop;400;;360;;19;;;;3684;0.6
+3541;leo_11_1;Passage to workshop;400;;360;;;0;;;3685;0.6
+3542;leo_11_2;Passage to workshop;400;;360;;;0;;;3686;0.6
+3543;leo_12;Salad instead of meet;200;;180;;19;;;;;0.55
+3544;leo_13;Nature genius;200;;180;;19;;;;;0.3
+3545;leo_14;Bottle of wine;200;;180;;19;;;;;0.4
+3546;leo_15;Alchemical chocolate;200;;180;;19;;;;;0.2
+3547;leo_16;Green chemistry;200;;180;;19;;;;;0.25
+3548;leo_17;Laziness challenge;200;;180;;19;;;;;0.4
+3549;leo_18;Starlit firmament;200;;180;;19;;;;;0.45
+3550;leo_19;Of frogs and milk;200;;180;;19;;;;;0.5
+3551;leo_20;Spread your wings;200;;180;;19;;;;;0.45
+3552;leo_21;Eternal music;200;;180;;19;;;;;0.6
+3553;leo_22;Letters from the past;200;;180;;19;;;;;0.5
+3554;leo_23;Donkey's treat;200;;180;;19;;;;;0.7
+3555;leo_24;Wise mechanisms;200;;180;;19;;;;;0.6
+3556;leo_25;Tiny world;200;;180;;19;;;;;0.7
+3557;leo_26;Bunch of wild flowers;200;;180;;19;;;;;0.8
+3558;leo_27;Leonardo's instruments;200;;180;;19;;;;;0.8
+3559;leo_28;Perfect mind;200;;180;;19;;;;;0.5
+3560;leo_29;Mineral wealth;200;;180;;19;;;;;0.8
+3561;leo_30;Monna's keepsake;200;;180;;19;;;;;0.7
+3562;leo_31;Modern outfit;200;;180;;19;;;;;0.6
+3563;leo_32;Natural beverage;200;;180;;19;;;;;0.85
+3564;leo_33;All the world's a stage;200;;180;;19;;;;;0.6
+3565;leo_34;Unnecessary hustle;200;;180;;19;;;;;0.9
+3566;leo_35;Florentine winter;200;;180;;19;;;;;0.75
+3567;leo_36;Pet friend;200;;180;;19;;;;;0.8
+3568;leo_37;Fifth element;200;;180;;19;;;;;0.6
+3569;leo_38;Experiment with plants;200;;180;;19;;;;;0.5
+3576;da01;Glimpse into the future;200;;150;;19;;;;;0.7
+3577;da02;Fortune cookie;220;;150;;19;;;;;0.5
+3578;da03;Golden nut;220;;150;;19;;;;;0.6
+3579;da04;Reading coffee grounds;260;;170;;19;;;;;0.3
+3580;da05;Predictions jar;200;;140;;19;;;;;0.8
+3581;da06;Butterfly wings;260;;170;;19;;;;;0.2
+3582;da07;A bit of magic;220;;150;;19;;;;;0.6
+3583;da08;Glass bird;220;;150;;19;;;;;0.4
+3584;da09;Cat paws;240;;150;;19;;;;;0.4
+3585;da10;Duck Tales;220;;150;;19;;;;;0.6
+3586;da11;Accurate tool;260;;180;;19;;;;;0.3
+3587;da12;Number of Harmony;200;;150;;19;;;;;0.7
+3588;da13;Homo symmetricae;220;;150;;19;;;;;0.5
+3589;da14;Noted assignments;220;;150;;19;;;;;0.3
+3590;da15;Master key;280;;180;;19;;;;;0.2
+3591;da16;Pen-and-ink;220;;150;;19;;;;;0.8
+3592;da17;Sweet medicine;220;;150;;19;;;;;0.4
+3593;da18;Corsican wild rose;220;;150;;19;;;;;0.6
+3594;da19;Gravitation;240;;160;;19;;;;;0.3
+3595;da20;Einstein's laboratory;300;;200;;19;;;;;0.2
+3596;timer_01;Rage of hurricane;800;;300;;15;;;;;-
+3597;timer_02;Sherlock;300;;200;;15;;;;;0.5
+3598;timer_03;Fast and sharp;400;;250;;15;;;;;-
+3599;timer_04;Anomaly hanter;800;;300;;15;;;;;-
+3600;timer_05;Evebody in the house;400;;220;;15;;;;;0.5
+3601;timer_06;Uncontrollable;250;;250;;15;;;;;0.5
+3602;timer_07;Collection;400;;250;;15;;;;;0.5
+3603;timer_08;Money feaver;350;;250;;15;;;;;0.5
+3604;timer_09;Dispatcher;600;;500;;15;;;;;0.5
+3606;timer_11;Expulsion;350;;250;;15;;;;;-
+3607;timer_12;Forward and upward;500;;250;;15;;;;;0.5
+3608;timer_13;Executive;300;;300;;15;;;;;0.5
+3609;timer_14;Wings behind;500;;300;;15;;;;;0.5
+3610;timer_15;Magic of things;300;;200;;15;;;;;0.5
+3611;timer_16;Uncontrolled growth;500;;250;;15;;;;;0.5
+3612;timer_17;No limits;400;;300;;15;;;;;0.5
+3613;timer_18;Astrologer;500;;250;;15;;;;;0.5
+3614;timer_19;Endless search;600;;300;;15;;;;;0.5
+3615;timer_20;Women's capris;500;;300;;15;;;;;0.5
+3616;timer_21;Anomaly hanter;500;;300;;15;;;;;-
+3617;timer_22;Sherlock;600;;400;;15;;;;;0.5
+3618;timer_23;Evebody in the house;300;;500;;15;;;;;0.5
+3619;timer_24;Executive;500;;400;;15;;;;;0.5
+3620;timer_25;Fast and sharp;500;;400;;15;;;;;-
+3621;timer_26;Collection;700;;400;;15;;;;;0.5
+3622;timer_27;Money feaver;800;;500;;15;;;;;0.5
+3624;timer_29;Ufology;1000;;300;;15;;;;;0.5
+3625;timer_30;Astrologer;600;;400;;15;;;;;0.5
+3626;timer_31;Manipulator;500;;300;;15;;;;;-
+3627;timer_32;Sherlock;800;;400;;15;;;;;0.5
+3628;timer_33;Hearts in love;600;;300;;15;;;;;0.5
+3629;timer_34;Uncontrolled growth;800;;400;;15;;;;;0.5
+3630;timer_35;Anomaly hanter;1000;;300;;15;;;;;-
+3631;timer_36;Astrologer;800;;600;;15;;;;;0.5
+3632;timer_37;Evebody in the house;700;;250;;15;;;;;0.5
+3633;timer_38;No limits;800;;300;;15;;;;;0.5
+3634;timer_39;Magic of things;600;;300;;15;;;;;0.5
+3635;timer_40;Knowing no defeats;900;;300;;15;;;;;-
+3636;timer_41;Without help;600;;300;;15;;;;;0.5
+3637;timer_42;Sphinx puzzle;900;;300;;15;;;;;0.5
+3638;timer_43;Experienced player;600;;400;;15;;;;;0.5
+3639;timer_44;Friends are my treasure;1000;;500;;15;;;;;0.5
+3640;timer_45;You reap what you sow;1000;;500;;15;;;;;0.5
+3641;timer_46;Purchasing power;500;;250;;15;;;;;0.5
+3642;timer_47;Enlightement;1000;;400;;15;;;;;0.5
+3643;timer_48;Quick as a wind;1000;;300;;15;;;;;0.5
+3570;tmp_time_1;3570;;;;;;;;;3535;-
+3684;tmp_time_4;3684;;;;;;;;;3541;-
+3572;tmp_time_2;3572;;;;;;;;;3536;-
+3685;tmp_time_5;3685;;;;;;;;;3542;-
+3686;tmp_time_6;3686;;;;;;;;;3541;-
+3574;tmp_time_3;3574;;;;;;;;;3535;-
+3665;d1;;;;;;;;;;;-
+3666;d2;;;;;;;;;;;-
+3667;d3;;;;;;;;;;;-
+3668;d4;;;;;;;;;;;-
+3669;d5;;;;;;;;;;;-
+3673;d6;;;;;;;;;;;-
+3670;d7;;;;;;;;;;;-
+3672;d8;;;;;;;;;;;-
+3671;d9;;;;;;;;;;;-
+3676;d10;;;;;;;;;;;-
+3674;d11;;;;;;;;;;;-
+3675;d12;;;;;;;;;;;-
+3677;d13;;;;;;;;;;;-
+3840;tl_23;UFO;300;;300;;10;;;;;-
+3841;ufo_1;Crash;250;;200;;10;;;;;0.7
+3842;ufo_2;Meet the unknown;250;;200;;10;;;;;0.5
+3843;ufo_3;First contact;220;;150;;10;;;;;0.6
+3844;ufo_4;In-depth analysis;260;;170;;10;;;;;0.3
+3845;ufo_5;Dot one's i's;300;;200;;10;;;;;0.6
+3846;ufo_6;Shadow of a tree;250;;200;;10;;;;;0.4
+3847;ufo_7;Fast and small;250;;200;;10;;;;;0.5
+3848;ufo_8;Iron horse;300;;200;;10;;;;;0.7
+3849;ufo_9;Winding road;300;;200;;10;;;;;0.3
+3850;ufo_10;Two are better than four;250;;300;;10;;;;;0.6
+3851;ufo_11;Prehistoric contact;300;;200;;10;;;;;0.4
+3852;ufo_12;Sign of a reptile;300;;200;;10;;;;;0.5
+3853;ufo_13;Winged lizard;300;;250;;10;;;;;0.7
+3854;ufo_14;Out of the kind;350;;250;;10;;;;;0.3
+3855;ufo_15;Fast and furious;350;;250;;10;;;;;0.6
+3856;ufo_16;Ancestor spirits;350;;250;;10;;;;;0.8
+3857;ufo_17;Ancient gods;350;;300;;10;;;;;0.4
+3858;ufo_18;Wise elephant;350;;250;;10;;;;;0.6
+3859;ufo_19;Carnival mask;400;;250;;10;;;;;0.3
+3860;ufo_20;Mister Fawkes;400;;300;;10;;;;;0.3
+3959;bath_01;Father's lessons;200;;200;;37;;;;;0.7
+3960;bath_02;Unusual chair;220;;200;;37;;;;;0.5
+3961;bath_03;Energy lamp;200;;220;;37;;;;;0.6
+3962;bath_04;Time pyramid;240;;220;;37;;;;;0.3
+3963;bath_05;Dessert for Cleo;220;;240;;37;;;;;0.6
+3964;bath_06;Fishing frenzy;220;;240;;37;;;;;0.4
+3965;bath_07;Common bite;220;;240;;37;;;;;0.5
+3966;bath_08;Angling fashion;220;;240;;37;;;;;0.7
+3967;bath_09;Landing-net;240;;260;;37;;;;;0.3
+3968;bath_10;Fisherman's outfit;220;;240;;37;;;;;0.6
+3969;bath_11;Ball in play;220;;260;;37;;;;;0.4
+3970;bath_12;Sports equipment;240;;240;;37;;;;;0.5
+3971;bath_13;Racing flag;240;;260;;37;;;;;0.7
+3972;bath_14;That's a must;240;;260;;37;;;;;0.3
+3973;bath_15;Sports and power;220;;240;;37;;;;;0.6
+3974;bath_16;Scientific device;240;;260;;37;;;;;0.8
+3975;bath_17;Unusual metal;260;;240;;37;;;;;0.4
+3976;bath_18;Molecular glasses;260;;260;;37;;;;;0.6
+3977;bath_19;Just one touch;240;;260;;37;;;;;0.3
+3978;bath_20;Negligible risk;260;;260;;37;;;;;0.3
+4022;cap_01;Fire fighting;320;;340;;82;;;;;0.7
+4023;cap_02;Fire hydrant;340;;340;;82;;;;;0.4
+4024;cap_03;Strange-shaped bucket;320;;340;;82;;;;;0.6
+4025;cap_04;One more item;360;;360;;82;;;;;0.3
+4026;cap_05;Taming fire;320;;340;;82;;;;;0.7
+4027;cap_06;Honorary diploma;340;;340;;82;;;;;0.7
+4028;cap_07;Another order;340;;360;;82;;;;;0.5
+4029;cap_08;Cup Winners' Cup;340;;340;;82;;;;;0.7
+4030;cap_09;Honor ribbon;380;;360;;82;;;;;0.3
+4031;cap_10;Wreath of leaves;360;;340;;82;;;;;0.6
+4032;cap_11;Soaring in the ocean;360;;340;;82;;;;;0.4
+4033;cap_12;Large-toothed predator;340;;340;;82;;;;;0.5
+4034;cap_13;Dangerous tentacles;340;;360;;82;;;;;0.7
+4035;cap_14;Human friends;380;;360;;82;;;;;0.3
+4036;cap_15;Odd fish;340;;340;;82;;;;;0.6
+4037;cap_16;Precise instruments;340;;360;;82;;;;;0.7
+4038;cap_17;Heavy anchor;360;;340;;82;;;;;0.4
+4039;cap_18;Who's the master;360;;340;;82;;;;;0.8
+4040;cap_19;Big Bertha;380;;360;;82;;;;;0.3
+4041;cap_20;Last device;400;;400;;82;;;;;0.3
+4110;p01;Sweetest memories;300;;400;;33;;;;;0.9
+4111;p02;Girls and dolls;300;;500;;33;;;;;0.8
+4112;p03;Great architect;300;;500;;33;;;;;0.6
+4113;p04;Laws of robotics;350;;400;;33;;;;;0.6
+4114;p05;A pair of wings;350;;600;;33;;;;;0.5
+4115;p06;Unexpected request;350;;600;;33;;;;;0.7
+4116;p07;Stratagem;350;;600;;33;;;;;0.4
+4117;p08;Little army;400;;400;;33;;;;;0.5
+4118;p09;Brave commander;350;;500;;33;;;;;0.2
+4119;p10;Upgraded invention;400;;400;;33;;;;;0.5
+4120;p11;Laundry day;300;;300;;33;;;;;0.8
+4121;p12;Looking glass;400;;400;;33;;;;;0.5
+4122;p13;High tea;300;;500;;33;;;;;0.2
+4123;p14;Sweet dessert;400;;400;;33;;;;;0.4
+4124;p15;Distracted scientist;300;;700;;33;;;;;0.3
+4125;p16;Archery lessons;300;;400;;33;;;;;0.8
+4126;p17;Keep fit!;400;;400;;33;;;;;0.1
+4127;p18;Experiments;300;;500;;33;;;;;0.2
+4128;p19;Sweet tooth;400;;400;;33;;;;;0.2
+4129;p20;Fruit salad;300;;700;;33;;;;;0.1
+3712;m_city;Crystal prize;;10;;;6;;;;;-
+4135;fitness01;Fitness with Cleo;350;1;;;5;;;;;-
+4137;fitness02;Fitness with Cleo;500;1;;;5;;;;;-
+4138;fitness03;Fitness with Cleo;700;2;;;5;;;;;-
+4139;fitness04;Fitness with Cleo;1000;3;;;5;;;;;-
+4140;fitness05;Fitness with Cleo;1000;3;;;5;;;;;-
+4141;fitness06;Fitness with Cleo;;3;;;5;;;;;-
+4142;fitness07;Fitness with Cleo;2000;4;;;5;;;;;-
+4143;fitness08;Fitness with Cleo;3000;3;;;5;;;;;-
+4144;fitness09;Fitness with Cleo;1000;;;;5;;;;;-
+4145;fitness10;Fitness with Cleo;;5;;;5;;;;;-
+4146;fitness11;Fitness with Cleo;1000;3;;;5;;;;;-
+4147;fitness12;Fitness with Cleo;;5;;;5;;;;;-
+4148;fitness13;Fitness with Cleo;1000;;;;5;;;;;-
+4149;fitness14;Fitness with Cleo;1000;7;;;5;;;;;-
+4150;fitness15;Fitness with Cleo;;3;;;5;;;;;-
+4151;fitness16;Fitness with Cleo;;5;;;5;;;;;-
+4152;fitness17;Fitness with Cleo;5000;30;;;5;;;;;-
+4136;fitness_pre;Fitness with Cleo;;;;;5;;;;;-
+4480;ml01;Pains of the soul;200;;180;;28;;;;;1
+4481;ml02;Master's diary;200;;180;;28;;;;;0.9
+4482;ml03+;Inexplicable fact;200;;180;;28;;;;;0.8
+4483;ml04;Scientific approach;200;;180;;4;;;;;0.7
+4484;ml05;Time paradox;200;;180;;4;;;;;0.6
+4485;ml06;Inventor's must-have;200;;180;;4;;;;;0.5
+4486;ml07+;Mysterious model;200;;180;;4;;;;;0.9
+4487;ml08+;Warm feelings;200;;180;;4;;;;;0.6
+4488;ml09+;Veni, Spiritus!;200;;180;;4;;;;;0.6
+4489;ml10;First encounter;200;;180;;4;;;;;0.5
+4490;ml11+;Power of science;200;;180;;4;;;;;0.5
+4491;ml12+;Special wine;200;;180;;4;;;;;0.5
+4492;ml13+;Memories;200;;180;;4;;;;;0.4
+4493;ml14;Graphite;200;;180;;4;;;;;0.5
+4494;ml15+;Miscalculations;200;;180;;4;;;;;0.4
+4495;ml16+;First failure;200;;180;;4;;;;;0.5
+4496;ml17+;Quick sketch;200;;180;;4;;;;;0.5
+4497;ml18+;Romance;200;;180;;4;;;;;0.4
+4498;ml19;Mona Lisa's smile;200;;180;;4;;;;;0.8
+4499;ml20+;La Resistance;200;;180;;4;;;;;0.4
+4500;ml21+;Artful gift;200;;180;;4;;;;;0.5
+4501;ml22+;Beauty requires sacrifice;200;;180;;4;;;;;0.5
+4502;ml23+;Love poetry;200;;180;;4;;;;;0.8
+4503;ml24;Gap;200;;180;;4;;;;;0.8
+4504;ml25+;Energy crisis;200;;180;;4;;;;;0.3
+4505;ml26+;Final strokes;200;;180;;4;;;;;0.4
+4506;ml27;Farewell gift;200;;180;;4;;;;;0.4
+4507;ml28+;Final effort;200;;180;;4;;;;;0.3
+4508;ml29;Historical justice;0;20;180;;4;;;;;1
+4620;ti01;Cold Math;200;;180;;27;;;;;0.8
+4621;ti02;Cozy Relic;200;;180;;27;;;;;0.8
+4622;ti03;Thorny Elegance;200;;180;;27;;;;;0.8
+4623;ti04;Music of the Indians;200;;180;;27;;;;;0.8
+4624;ti05;Fluffy Wonder;200;;180;;27;;;;;0.8
+4625;ti06;Astonishing practicality;200;;180;;27;;;;;0.8
+4626;ti07;Rubber Tree;200;;180;;27;;;;;0.8
+4627;ti08;Wind instrument;200;;180;;27;;;;;0.8
+4628;ti09;Power of the Ancestors;200;;180;;27;;;;;0.8
+4629;ti10;Trophy Fish-Tackle ;200;;180;;27;;;;;0.8
+4630;ti11;Scientific Approach;200;;180;;27;;;;;0.8
+4631;ti12;Magic Tube;200;;180;;27;;;;;0.8
+4632;ti13;Cat Family;200;;180;;27;;;;;0.8
+4633;ti14;Latin-American Fashion;200;;180;;27;;;;;0.8
+4634;ti15;Queen of Flowers;200;;180;;27;;;;;0.8
+4635;ti16;Original Speech;200;;180;;27;;;;;0.8
+4636;ti17;Distant Relative;200;;180;;27;;;;;0.8
+4637;ti18;Safer than Titanic;200;;180;;27;;;;;0.8
+4638;ti19;Sitting under the Palm;200;;180;;27;;;;;0.8
+4639;ti20;Fairly Simple;200;;180;;27;;;;;0.8
+4642;inc01;God of Thunder and Lightning;240;;200;;42;;;;;0.7
+4643;inc02;Warmer Upper;240;;200;;42;;;;;0.7
+4644;inc03;The Adventure Begins;240;;200;;42;;;;;0.7
+4645;inc04;Creation of the World;240;;200;;42;;;;;0.7
+4646;inc05;Chocolate Tree;240;;200;;42;;;;;0.7
+4647;inc06;All-Purpose Tool;240;;200;;42;;;;;0.7
+4648;inc07;Mother Lake;240;;200;;42;;;;;0.7
+4649;inc08;Yummy;240;;200;;42;;;;;0.7
+4650;inc09;Treasure Map;240;;200;;42;;;;;0.7
+4651;inc10;God of Rainbow;240;;200;;42;;;;;0.5
+4652;inc11;Cooking Incapacity;240;;200;;42;;;;;0.7
+4653;inc12;Revolver;240;;200;;42;;;;;0.7
+4654;inc13;Favorable Wind;240;;200;;42;;;;;0.7
+4655;inc14;Lethal Gift;240;;200;;42;;;;;0.7
+4656;inc15;Like a Movie Hero;240;;200;;42;;;;;0.7
+4641;bar_unlock;Flower garlands ;200;;180;;8;;;;;0.8
+4873;sydney_unlock;Compass;230;;260;;47;;;;;0.8
+4874;serfshop_unlock;Sunscreen;340;;360;;70;;;;;0.8
+4967;tango_school_unlock;Gaucho Hat;300;;320;;65;;;;;0.8
+4668;cross_promo;Crystal prize;;10;;;6;;;;;-
+4877;sy01;Green skyscraper;230;;260;;47;;;;;0.8
+4878;sy02;Bottle tree;240;;270;;47;;;;;0.7
+4879;sy03;Doryanthes palmeri;250;;280;;47;;;;;0.6
+4880;sy04;Australian gold;260;;290;;47;;;;;0.5
+4881;sy05;Murraya;270;;300;;47;;;;;0.4
+4882;sy06;5th place;230;;260;;47;;;;;0.8
+4883;sy07;4th place;240;;270;;47;;;;;0.7
+4884;sy08;3rd place;250;;280;;47;;;;;0.6
+4885;sy09;2nd place;260;;290;;47;;;;;0.5
+4886;sy10;1st place;270;;300;;47;;;;;0.4
+4887;sy11;Animal emblem;230;;260;;47;;;;;0.8
+4888;sy12;Not a bear;240;;270;;47;;;;;0.7
+4889;sy13;Emu War;250;;280;;47;;;;;0.6
+4890;sy14;Small but proud;260;;290;;47;;;;;0.5
+4891;sy15;Dingo;270;;300;;47;;;;;0.4
+4892;sy16;Centuries-old weapon;230;;260;;47;;;;;0.8
+4893;sy17;Precious Australia;240;;270;;47;;;;;0.7
+4894;sy18;Dreamtime;250;;280;;47;;;;;0.6
+4895;sy19;Architectural miracle;260;;290;;47;;;;;0.5
+4896;sy20;Essential collectible;270;;300;;47;;;;;0.4
+4907;serf01;Surfing;340;;360;;70;;;;;0.8
+4908;serf02;Surf shoes;350;;370;;70;;;;;0.7
+4909;serf03;Windsurfing ;360;;380;;70;;;;;0.6
+4910;serf04;Standup paddleboarding;370;;390;;70;;;;;0.5
+4911;serf05;Kitesurfing;380;;400;;70;;;;;0.4
+4912;serf06;Juicy fruit;340;;360;;70;;;;;0.8
+4913;serf07;Pineapple;350;;370;;70;;;;;0.7
+4914;serf08;Paradise vacation;360;;380;;70;;;;;0.6
+4915;serf09;;370;;390;;70;;;;;0.5
+4916;serf10;Universal fruit;380;;400;;70;;;;;0.4
+4917;serf11;Cloves;340;;360;;70;;;;;0.8
+4918;serf12;Сardamom;350;;370;;70;;;;;0.7
+4919;serf13;Nutmeg;360;;380;;70;;;;;0.6
+4920;serf14;Turmeric;370;;390;;70;;;;;0.5
+4921;serf15;Cinnamon;380;;400;;70;;;;;0.8
+4922;serf16;4 fingers;340;;360;;70;;;;;0.8
+4923;serf17;Wise long-livers;350;;370;;70;;;;;0.7
+4924;serf18;Animal yogis;360;;380;;70;;;;;0.6
+4925;serf19;Scary cuties;370;;390;;70;;;;;0.5
+4926;serf20;Personhood;380;;400;;70;;;;;0.4
+4993;tango01;Milk caramel;300;;320;;65;;;;;0.8
+4994;tango02;Pastries for everyone;310;;330;;65;;;;;0.7
+4995;tango03;Mazamorra;320;;340;;65;;;;;0.6
+4996;tango04;Alfajor;330;;350;;65;;;;;0.5
+4997;tango05;Helado;340;;360;;65;;;;;0.4
+4998;tango06;Dancing lessons;300;;320;;65;;;;;0.8
+4999;tango07;High heels;310;;330;;65;;;;;0.7
+5000;tango08;Desert rose;320;;340;;65;;;;;0.6
+5001;tango09;Authentic gramophone;330;;350;;65;;;;;0.5
+5002;tango10;Vinyl record;340;;360;;65;;;;;0.4
+5003;tango11;Water hog;300;;320;;65;;;;;0.8
+5004;tango12;Golden Fleece;310;;330;;65;;;;;0.7
+5005;tango13;Andean bear;320;;340;;65;;;;;0.6
+5006;tango14;Pink plumage;330;;350;;65;;;;;0.5
+5007;tango15;Little armored one;340;;360;;65;;;;;0.4
