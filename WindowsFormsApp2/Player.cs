@@ -23,21 +23,22 @@ namespace UninterruptedPlayExp
         private Dictionary<int, int> levelUpTable;
 
         private Games game;
-        private Random r;// = new Random();
+        private Random r;
         public int XpLevel;
         public int CurrentXp;
         public int CurrentEnergy;
         public int MaxEnergy;
-        public CloneableDictionary<int,Task> ActiveTasks = new CloneableDictionary<int, Task>();
-        public CloneableDictionary<int, Task> AvailableTasks;
-        public CloneableDictionary<int, Task> CompletedTasks = new CloneableDictionary<int, Task>();
+        public Dictionary<int,Task> ActiveTasks = new Dictionary<int, Task>();
+        public Dictionary<int, Task> AvailableTasks;
+        public Dictionary<int, Task> CompletedTasks = new Dictionary<int, Task>();
         public Dictionary<string,Location> LockedLocations = new Dictionary<string, Location>();
         public Dictionary<string, Location> UnlockedLocations = new Dictionary<string, Location>();
 
-        public Player(CloneableDictionary<int, Task> tasks, string name, Games game)
+        public Player(Dictionary<int, Task> tasks, string name, Games game)
         {
             this.game = game;
 
+            //each player must have different behavior so they must have differen Randoms
             r = new Random((int.Parse(name)+1)*DateTime.Now.Millisecond);
             Thread.Sleep(1);
 
@@ -64,7 +65,7 @@ namespace UninterruptedPlayExp
 
             
         }
-
+        //creation of player for each game (different start parameters, first tasks ans so on)
         private void CreatePlayerForTE()
         {
             XpLevel = 1;
@@ -93,28 +94,31 @@ namespace UninterruptedPlayExp
             ActiveTasks[59].IsActive = true;
         }
 
+        //unlock locations
         public void CheckLocations(Games game)
         {
             foreach (var loc in LockedLocations.Values)
             {
                 if (!UnlockedLocations.ContainsKey(loc.Name)&& XpLevel >= loc.MinLevel)
                 {
-                    UnlockedLocations.Add(loc.Name,new Location(loc.Name,loc.MinLevel,loc.XpReward,game));
+                    UnlockedLocations.Add(loc.Name,loc);
                 }
             }
         }
 
+        //cheking if there are possible locations, where a player can play
         private bool CheckIfCanPlay()
         {
             bool canDoSomething = false;
+            //check all tasks
             foreach (var t in ActiveTasks)
             {
+                //check all location in task
                 foreach (var l in t.Value.Locations)
                 {
                     //если может играть - canDoSomething тру
 
                     if (UnlockedLocations.ContainsKey(l) && CurrentEnergy >= UnlockedLocations[l].EnergyCost)
-                    //if (UnlockedLocations.ContainsKey(l) && CurrentEnergy >= -2)
                     {
                         canDoSomething = true;
                     }
@@ -127,6 +131,7 @@ namespace UninterruptedPlayExp
         {
             bool canDoSomething=true;
 
+            //checks if certain energetics were given to a player
             bool addedPancakesOn5 = false;
             bool addedSaladOn6 = false;
 
@@ -134,14 +139,14 @@ namespace UninterruptedPlayExp
             {
                 canDoSomething = false;
 
-                //сыграть локацию
-
+                //select random task, random location and play it
                 TryCompleteTask();
 
                 
 
                 canDoSomething= CheckIfCanPlay();
-                //добавить за время
+
+                //uncomment to add energy for time in game spent
                 //if (!canDoSomething && !addEnergyForTime)
                 //{
                 //    CurrentEnergy += 10;
@@ -149,7 +154,8 @@ namespace UninterruptedPlayExp
                 //    addEnergyForTime = true;
                 //}
                 
-                //навалить энергетик
+
+                //give energy to a player
                 if (!canDoSomething && EnergeticsAdded<4)
                 {
 
@@ -186,22 +192,21 @@ namespace UninterruptedPlayExp
 
         private void TryCompleteTask()
         {
-            //выбор случайной таски из активных
+            //choose a task from active
             int taskNum=ChooseNextTask();
             Task chosenTask = ActiveTasks.ElementAt(taskNum).Value;
 
 
-            //выбор случайной локации из этой таски
+            //choose a location for that task
             string chosenLocationName=ChooseLocationName(chosenTask);
 
 
 
 
-            //если локация открыта и на нее хватает энергии
+            //check if a player can play that location
             if (UnlockedLocations.ContainsKey(chosenLocationName) && CurrentEnergy>=UnlockedLocations[chosenLocationName].EnergyCost)
-            //if (UnlockedLocations.ContainsKey(chosenLocationName) && CurrentEnergy>=-30)
                 {
-                //отминусовать энергию, получить результат игры
+                //spend energy, get result
                     CurrentEnergy -= UnlockedLocations[chosenLocationName].EnergyCost;
 
                     
@@ -210,10 +215,9 @@ namespace UninterruptedPlayExp
                 if (chosenLocationName == "Energy" && CurrentEnergy >= 15) result = -1;
                     if (result >= 100-chosenTask.Probability)
                     {
-                    //если выиграли
 
 
-                    //если сыграли таску про топор и включился амулет
+                    //after one task amount of exp is increased
                     int reward;
                     if (game == Games.TG && CompletedTasks.ContainsKey(886))
                     {
@@ -223,12 +227,13 @@ namespace UninterruptedPlayExp
                     {
                         reward = UnlockedLocations[chosenLocationName].XpReward;
                     }
+                    //add reward for location explore
                     CurrentXp += reward;
 
 
 
-                    //chosenTask.Locations.RemoveAt(locN);
-                    //убрали локацию из активных
+                    
+                    //add "location exp"
                     if (game == Games.TG)
                     {
                         UnlockedLocations[chosenLocationName].AddLocationXP();
@@ -241,7 +246,8 @@ namespace UninterruptedPlayExp
                     }
 
                         
-                    //если нашли все, что надо - перенести таску в завершенные, выбрать из активных все, для которых эта таска была предыдущей
+                    //if task is completed, remove it from active and add to active all next tasks
+
                         if (chosenTask.Locations.Count == 0)
                         {
                         if (!CompletedTasks.ContainsKey(chosenTask.Id))
@@ -279,8 +285,10 @@ namespace UninterruptedPlayExp
 
                         }
 
+                        //add reward for task completion
                         AddBuns(chosenTask);
 
+                    //save player's state at location complete
                     if (!StateAtTaskCompletion.ContainsKey(chosenTask.Id))
                     {
                         StateAtTaskCompletion.Add(chosenTask.Id, new PlayerState(Name, EnergeticsAdded, XpLevel, CurrentXp, CurrentEnergy, MaxEnergy));
@@ -291,6 +299,7 @@ namespace UninterruptedPlayExp
 
         }
 
+        //add reward for task, level up player if needed, check new locations
         private void AddBuns(Task task)
         {
             CurrentXp += task.XpReward;
@@ -353,15 +362,14 @@ namespace UninterruptedPlayExp
             //LockedLocations = null;
         }
 
-        //выбор таски, которую будем играть. сейчас - рандомно из активных, в будущем можно добавить более сложное поведение
+        //choose which active task to play
         private int ChooseNextTask()
         {
             int taskNum = r.Next(ActiveTasks.Count);
             return taskNum;
         }
 
-        //выбор локации из выбранной таски, которую будем играть. сейчас - рандомно из возможных, в будущем можно 
-        //добавить более сложное поведение
+        //choose which location in chosen task to play
         private string ChooseLocationName(Task chosenTask)
         {
             int locN = r.Next(chosenTask.Locations.Count);
@@ -373,8 +381,7 @@ namespace UninterruptedPlayExp
             return chosenLocationName;
         }
 
-        //получить результат прохождения локации (по сути нашли/не нашли предмет), сейчас просто рандомно, потом можно допилить например
-        //учет винрейта, аномалии, моды и т. д. (но для этого придется давать в метод локацию и переписать сам класс Location)
+        //get result of location play. here I can check if there were anomalies, hints and so on
         private int GetResult()
         {
             int result = r.Next(0, 100);

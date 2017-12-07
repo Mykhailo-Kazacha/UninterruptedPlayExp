@@ -14,7 +14,7 @@ namespace UninterruptedPlayExp
 {
     public partial class Form1 : Form
     {
-        public CloneableDictionary<int, Task> Tasks;
+        public Dictionary<int, Task> Tasks;
         bool allIsCreated = false;
         Games game;
         Dictionary<string, Location> locations;
@@ -30,7 +30,7 @@ namespace UninterruptedPlayExp
         {
             //create list of tasks
             string line;
-            Tasks = new CloneableDictionary<int, Task>();
+            Tasks = new Dictionary<int, Task>();
 
             //string path = String.Format(@"C:\Users\mkazacha\Desktop\UninterruptedPlayExp\tasks ({0}).csv", textBox2.Text);
             string path = String.Format(@"tasks ({0}).csv", textBox2.Text);
@@ -75,9 +75,10 @@ namespace UninterruptedPlayExp
             locations = new Dictionary<string, Location>();
             //string path = String.Format(@"C:\Users\mkazacha\Desktop\UninterruptedPlayExp\locations ({0}).csv", textBox2.Text);
             string path = String.Format(@"locations ({0}).csv", textBox2.Text);
-            string line;
+            
             using (StreamReader sr = new StreamReader(path))
             {
+                string line;
                 while ((line = sr.ReadLine()) != null)
                 {
                     string[] tmp = new string[2];
@@ -90,9 +91,16 @@ namespace UninterruptedPlayExp
                 }
 
             };
+
+            //add all available locations from locked to Unlocked
+            foreach (var player in players)
+            {
+                player.CheckLocations(game);
+            }
+
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void SetChart()
         {
             chart1.Series[0].Points.Clear();
             chart1.ChartAreas[0].AxisX.Maximum = 60;
@@ -102,8 +110,13 @@ namespace UninterruptedPlayExp
             chart1.ChartAreas[0].AxisY.IntervalAutoMode = System.Windows.Forms.DataVisualization.Charting.IntervalAutoMode.FixedCount;
             chart1.ChartAreas[0].AxisY.Interval = 10;
             chart1.Series[0].Color = Color.Red;
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SetChart();
 
+            //choose a game
             switch (textBox2.Text)
             {
                 case "TG":
@@ -117,58 +130,41 @@ namespace UninterruptedPlayExp
                     break;
             }
 
+            
             if (!allIsCreated)
             {
+                //list of all available tasks from csv
                 CreateTaskList();
                 allIsCreated=true;
-                }
-
-            players = CreateListOfPlayers(game);
-
-            //switch (game)
-            //{
-            //    case Games.TG:
-            //        Tasks.Remove(59);
-            //        break;
-            //    case Games.TE:
-            //        Tasks.Remove(4926);
-            //        break;
-            //    default:
-            //        Tasks.Remove(4926);
-            //        break;
-            //}
-
-
-
-            CreateListOfLocations(players, game);
-
-
-
-            foreach (var player in players)
-            {
-                player.CheckLocations(game);
             }
 
+
+            players = CreateListOfPlayers(game);
+            
+            //create list of locked and unlocked location for each player
+            CreateListOfLocations(players, game);
+
+            //start playing
             foreach (var player in players)
             {
                 player.Play();
             }
 
           //  проход по таскам хидден/ миниигра или нет
-            var tmp = new Dictionary<int, bool>();
-            foreach (var task in Tasks)
-            {
-                if (task.Value.Locations[0] == "Collection" || task.Value.Locations[0] == "Energy")
-                {
-                    tmp.Add(task.Key, false);
-                }
-                else
-                {
-                    tmp.Add(task.Key, true);
-                }
-            }
+            //var tmp = new Dictionary<int, bool>();
+            //foreach (var task in Tasks)
+            //{
+            //    if (task.Value.Locations[0] == "Collection" || task.Value.Locations[0] == "Energy")
+            //    {
+            //        tmp.Add(task.Key, false);
+            //    }
+            //    else
+            //    {
+            //        tmp.Add(task.Key, true);
+            //    }
+            //}
 
-            
+            //save probabilities for each completed tasks
             probabilities = new Dictionary<int, double>();
             foreach (var player in players)
             {
@@ -181,9 +177,10 @@ namespace UninterruptedPlayExp
                 }
             }
 
-            var time = new int[int.Parse(textBox1.Text)];
-            var xp = new int[int.Parse(textBox1.Text)];
-            var level = new int[int.Parse(textBox1.Text)];
+            //create arrays of players' state (time in game, exp, level)
+            var time = new int[players.Count()];
+            var xp = new int[players.Count()];
+            var level = new int[players.Count()];
             for (int i = 0; i < time.Length; i++)
             {
                 time[i]=90*players[i].CompletedTasks.Count;
@@ -199,6 +196,7 @@ namespace UninterruptedPlayExp
             listBox1.Items.Add(String.Format("Median xp: " + (xp.OrderByDescending(t => t).ToArray())[xp.Length / 2].ToString() + " / " 
                 + LevelUpTable.tableTG[(level.OrderByDescending(t => t).ToArray())[level.Length/2] + 1].ToString()));
             listBox1.Items.Add("\n\r")  ;
+
 
             if (game == Games.TG)
             {

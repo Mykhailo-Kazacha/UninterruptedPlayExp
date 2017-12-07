@@ -49,7 +49,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(244, 71);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Играть";
+            this.button1.Text = "Play";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -90,7 +90,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(119, 55);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Количество игроков";
+            this.label1.Text = "Number of players";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button2
@@ -101,7 +101,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(577, 66);
             this.button2.TabIndex = 7;
-            this.button2.Text = "Изменить вероятности";
+            this.button2.Text = "Change probabilities";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -119,7 +119,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 9;
-            this.button3.Text = "В файл";
+            this.button3.Text = "To file";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 

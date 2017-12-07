@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace UninterruptedPlayExp
 {
+    //levelup tables for different games
     static public class LevelUpTable
     {
         public static Dictionary<int, int> tableTE = new Dictionary<int, int>();
@@ -24,7 +25,6 @@ namespace UninterruptedPlayExp
                 tableTE.Add(i, tableTE[i-1]+500);
             }
 
-            // правильная таблица var delta= new int[16] { 0,50,200,500,1000,1200,1300,1400,1500,1600,1700,2000,2500,3000,3500,4000};
             var delta = new int[16] { 0, 50, 200, 500, 1000, 1200, 1300, 1400, 1500, 1600, 1700, 2000, 2500, 3000, 3500, 4000 };
             tableTG.Add(1, 0);
             for (int i = 2; i < 16; i++)

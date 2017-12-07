@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace UninterruptedPlayExp
 {
+    //represents location in game with mastery levels, "exp", costs and rewards
     public class Location
     {
         public string Name;
@@ -71,6 +72,7 @@ namespace UninterruptedPlayExp
             }
         }
 
+        //location for Travel Europe
         private void CreateTELocation()
         {
             if (Name == "Казино" || Name=="Коллекция" ||Name=="Опросник"|| Name == "Путешествуй_больше")
@@ -83,6 +85,7 @@ namespace UninterruptedPlayExp
             }
         }
 
+        //location for Time Gap
         private void CreateTGLocation()
         {
             if (Name == "Match3" || Name == "Bubbles" || Name == "Snooker")

@@ -7,10 +7,11 @@ using System.IO;
 
 namespace UninterruptedPlayExp
 {
-    
+    // class to represent a task for user to complete
     public class Task : ICloneable
     {
-        //private Random r = new Random();
+        //implementation of interface. needed in order to each player had separate lists
+        //active and completed tasks, taken from a big list of available tasks
         public object Clone()
         {
             List<string> tmp_location = new List<string>();
@@ -86,7 +87,8 @@ namespace UninterruptedPlayExp
             IsActive = false;
             SetProbability(Probability.ToString());
         }
-                
+
+        
         private void SetProbability(string Probability)
         {
             if (Probability == "")

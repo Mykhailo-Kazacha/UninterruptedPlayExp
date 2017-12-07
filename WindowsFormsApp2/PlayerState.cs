@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace UninterruptedPlayExp
 {
+    //stores state of a player
     public class PlayerState
     {
 

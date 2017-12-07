@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace UninterruptedPlayExp
 {
-    
+    //class to represent changes in amount of mastery experience gained per one game in location
+    //(for TG only)
     public static class LocationLevelUpTable
     {
         public static Dictionary<string, int[]> LocationLevelTable = new Dictionary<string, int[]>();
